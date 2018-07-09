@@ -1,0 +1,24 @@
+
+a{
+    color:#337ab7; ;
+}
+/*****************************************************/
+/*adminLET*/
+/**************/
+/*主体内容盒子*/
+.content{
+    min-height: 0;
+    padding: 15px 30px;
+}
+.container-fluid{
+    background-color:#fff;
+    border-radius: 3px;
+    border-top: 3px solid #d2d6de;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+.content-header{
+    padding:10px 0 20px;
+}
+.content-wrapper{
+    padding: 0 20px;
+}
