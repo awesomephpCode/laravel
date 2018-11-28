@@ -7,21 +7,21 @@
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
-    <link rel="stylesheet" href="{{ URL::asset('dashboard/AdminLTE/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('module/AdminLTE/css/bootstrap.min.css') }}">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{ URL::asset('dashboard/AdminLTE/css/AdminLTE.min.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('module/AdminLTE/css/AdminLTE.min.css') }}">
     <!-- Ionicons -->
-    <link rel="stylesheet" href="{{ URL::asset('dashboard/AdminLTE/css/ionicons.min.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('module/AdminLTE/css/ionicons.min.css') }}">
     <!-- Theme style -->
-    <link rel="stylesheet" href="{{ URL::asset('dashboard/AdminLTE/css/AdminLTE.min.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('module/AdminLTE/css/AdminLTE.min.css') }}">
     <!-- iCheck -->
-    <link rel="stylesheet" href="{{ URL::asset('dashboard/AdminLTE/css/blue.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('module/AdminLTE/css/blue.css') }}">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <!--<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>-->
+    {{--<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>--}}
     <![endif]-->
 
     <!-- Google Font -->
@@ -66,18 +66,18 @@
 <!-- /.login-box -->
 
 <!-- jQuery 3 -->
-<script src="{{ URL::asset('dashboard/AdminLTE/js/jquery.min.js') }}"></script>
+<script src="{{ URL::asset('module/AdminLTE/js/jquery.min.js') }}"></script>
 <!-- Bootstrap 3.3.7 -->
-<script src="{{ URL::asset('dashboard/AdminLTE/js/bootstrap.min.js') }}"></script>
+<script src="{{ URL::asset('module/AdminLTE/js/bootstrap.min.js') }}"></script>
 <!-- iCheck -->
-<script src="{{ URL::asset('dashboard/AdminLTE/js/icheck.min.js') }}"></script>
+<script src="{{ URL::asset('module/AdminLTE/js/icheck.min.js') }}"></script>
 
 
 <!-- 引入封装了failback的接口--initGeetest -->
 <script src="http://static.geetest.com/static/tools/gt.js"></script>
 
 {{--layer 弹出层--}}
-<script src="{{ URL::asset('dashboard/layer/layer.js') }}"></script>
+<script src="{{ URL::asset('module/layer/layer.js') }}"></script>
 
 <script>
 

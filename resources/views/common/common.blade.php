@@ -6,22 +6,22 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
-    <script src="{{ URL::asset('/dashboard/AdminLTE/js/jquery.min.js') }}"></script>
-    <link rel="stylesheet" href="{{ URL::asset('/dashboard/AdminLTE/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('/dashboard/AdminLTE/css/font-awesome.min.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('/dashboard/AdminLTE/css/ionicons.min.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('/dashboard/AdminLTE/css/AdminLTE.min.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('/dashboard/AdminLTE/css/_all-skins.min.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('/dashboard/AdminLTE/css/morris.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('/dashboard/AdminLTE/css/jquery-jvectormap.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('/dashboard/AdminLTE/css/bootstrap-datepicker.min.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('/dashboard/AdminLTE/css/daterangepicker.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('/dashboard/AdminLTE/css/bootstrap3-wysihtml5.min.css') }}">
+    <script src="{{ URL::asset('/module/AdminLTE/js/jquery.min.js') }}"></script>
+    <link rel="stylesheet" href="{{ URL::asset('/module/AdminLTE/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('/module/AdminLTE/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('/module/AdminLTE/css/ionicons.min.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('/module/AdminLTE/css/AdminLTE.min.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('/module/AdminLTE/css/_all-skins.min.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('/module/AdminLTE/css/morris.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('/module/AdminLTE/css/jquery-jvectormap.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('/module/AdminLTE/css/bootstrap-datepicker.min.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('/module/AdminLTE/css/daterangepicker.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('/module/AdminLTE/css/bootstrap3-wysihtml5.min.css') }}">
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 
     {{--自定义css 表格边框背景文件--}}
-    <link rel="stylesheet" href="{{ URL::asset('/dashboard/custom/css.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('/module/custom/css.css') }}">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
     <title>标题</title>
@@ -319,15 +319,15 @@
 </div>
 
 <!-- 结束 -->
-<script src="{{ URL::asset('/dashboard/AdminLTE/js/jquery.min.js') }}"></script>
-<script src="{{ URL::asset('/dashboard/AdminLTE/js/bootstrap.min.js') }}"></script>
-<script src="{{ URL::asset('/dashboard/AdminLTE/js/adminlte.min.js') }}"></script>
-<script src="{{ URL::asset('/dashboard/AdminLTE/js/demo.js') }}"></script>
+<script src="{{ URL::asset('/module/AdminLTE/js/jquery.min.js') }}"></script>
+<script src="{{ URL::asset('/module/AdminLTE/js/bootstrap.min.js') }}"></script>
+<script src="{{ URL::asset('/module/AdminLTE/js/adminlte.min.js') }}"></script>
+<script src="{{ URL::asset('/module/AdminLTE/js/demo.js') }}"></script>
 
 {{--ajxs上传图片文件--}}
-<script src="{{ URL::asset('/dashboard/custom/AjaxUploader.min.js') }}"></script>
+<script src="{{ URL::asset('/module/custom/AjaxUploader.min.js') }}"></script>
 {{--layer 弹出层--}}
-<script src="{{ URL::asset('/dashboard/layer/layer.js') }}"></script>
+<script src="{{ URL::asset('/module/layer/layer.js') }}"></script>
 
 <script type="text/javascript">
 
